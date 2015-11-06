@@ -160,6 +160,99 @@ h1, h2, h3, h4 {
     font-style: italic;
 }
 
+.project-pixels {
+    position: absolute;
+    top:70%;
+    left:50%;
+    z-index: 1;
+    transform: translate(-50%, -100%);
+}
+
+.pixel {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(242, 236, 29,0.1);
+    position: absolute;
+    top:50%;
+    left:50%;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+.pixel01 {left: 100px; top: -130px}
+.pixel02 {left: 126px; top: -104px}
+.pixel03 {left: 120px; top: -90px}
+.pixel04 {left: 111px; top: -50px}
+.pixel05 {left: 120px; top: -10px}
+.pixel06 {left: 145px; top: -70px}
+.pixel07 {left: 160px; top: -90px}
+.pixel08 {left: 150px; top: -40px}
+.pixel09 {left: 179px; top: -45px}
+.pixel10 {left: 187px; top: -77px}
+.pixel11 {left: -230px; top: -60px}
+.pixel12 {left: -110px; top: -130px}
+.pixel13 {left: -126px; top: -104px}
+.pixel14 {left: -140px; top: -90px}
+.pixel15 {left: -151px; top: -50px}
+.pixel16 {left: -125px; top: -10px}
+.pixel17 {left: -165px; top: -70px}
+.pixel18 {left: -170px; top: -60px}
+.pixel19 {left: -190px; top: -40px}
+.pixel20 {left: -181px; top: -45px}
+.pixel21 {left: -193px; top: -77px}
+.pixel22 {left: -140px; top: -60px}
+.sizeS {width: 5px; height: 5px; background-color: rgba(242,236,189,0.1);}
+.sizeL {width: 15px; height: 15px; background-color: rgba(242,236,189,0.3);}
+.sizeXL {width: 30px; height: 30px; background-color: rgba(242,236,189,0.6);}
+
+.button-container {
+    position: relative;
+}
+
+a.button{
+    text-decoration: none;
+    width: 150px;
+    display: block;
+    margin:0 auto;
+    color:rgba(255,255,255,0.7);
+    padding:8px 0;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bp {
+    width:50px;
+    height: 100%;
+    border: 2px rgba(255,255,255, 1) solid;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom:0;
+}
+
+.bp-mid {
+    left:50px;
+    border-width: 1px 0;
+} 
+
+.bp-left {
+    border-width: 1px 0 1px 1px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.bp-right {
+    left: auto;
+    right:0;
+    border-width: 1px 1px 1px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
