@@ -151,6 +151,7 @@ h1, h2, h3, h4 {
     position: relative;
     z-index: 4;
     display: block;
+    width:100%;
 }
 
 .project-title {
